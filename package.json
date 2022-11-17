@@ -1,0 +1,24 @@
+{
+  "name": "@minskylab/medusa-payment-mercadopago",
+  "version": "0.1.0",
+  "description": "Mercadopago Payment Provider for Medusa Commerce",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minskylab/medusa-payment-mercadopago.git"
+  },
+  "keywords": [
+    "medusa-plugin",
+    "medusa-plugin-payment"
+  ],
+  "author": "Minsky Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minskylab/medusa-payment-mercadopago/issues"
+  },
+  "homepage": "https://github.com/minskylab/medusa-payment-mercadopago#readme"
+}
