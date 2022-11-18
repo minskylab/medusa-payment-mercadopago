@@ -1,0 +1,18 @@
+/lib
+node_modules
+.DS_store
+.env*
+/*.js
+!index.js
+yarn.lock
+src
+.gitignore
+.eslintrc
+.babelrc
+.prettierrc
+
+# These are the files included in a Medusa project (reference: medusa-starter-default template, 
+# https://github.com/medusajs/medusa-starter-default) and can be removed for a plugin project
+medusa-config.js
+Dockerfile
+develop.sh
