@@ -15,4 +15,5 @@ src
 # https://github.com/medusajs/medusa-starter-default) and can be removed for a plugin project
 medusa-config.js
 Dockerfile
+medusa-db.sql
 develop.sh
