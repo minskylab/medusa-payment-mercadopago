@@ -114,7 +114,7 @@ class MercadopagoProviderService extends AbstractPaymentService {
       external_reference: cart.id, //This field will allow you to relate the payment with the cartid
       back_urls: {
         //Return the cardId in the url to get the order from the client side
-        success: `${this.options_.store_url}/experiences/order/${cart.id}/`,
+        success: `${this.options_.success_backurl}/${cart.id}/`,
       },
     };
 
@@ -173,7 +173,7 @@ class MercadopagoProviderService extends AbstractPaymentService {
         },
         external_reference: cart.id,
         back_urls: {
-          success: `${this.options_.store_url}/experiences/order/${cart.id}/`,
+          success: `${this.options_.success_backurl}/${cart.id}/`,
         },
       };
       const paymentIntent = await this.mercadopago_.preferences.update({
@@ -186,7 +186,7 @@ class MercadopagoProviderService extends AbstractPaymentService {
         },
         external_reference: cart.id,
         back_urls: {
-          success: `${this.options_.store_url}/experiences/order/${cart.id}/`,
+          success: `${this.options_.success_backurl}/${cart.id}/`,
         },
       });
 
