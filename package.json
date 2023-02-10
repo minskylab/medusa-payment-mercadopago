@@ -36,5 +36,8 @@
     "@medusajs/medusa": "^1.6.0",
     "typeorm": "^0.2.36",
     "medusa-interfaces": "^1.3.3"
-  }
+  },
+  "files": [
+    "services"
+  ]
 }
