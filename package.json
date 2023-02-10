@@ -1,6 +1,6 @@
 {
   "name": "@minskylab/medusa-payment-mercadopago",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Mercadopago Payment Provider for Medusa Commerce",
   "author": "Minsky Community <hello@minsky.cc>",
   "license": "MIT",
