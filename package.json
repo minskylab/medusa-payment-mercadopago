@@ -38,6 +38,10 @@
     "medusa-interfaces": "^1.3.3"
   },
   "files": [
-    "services"
+    "api",
+    "dist",
+    "services",
+    "env.example",
+    "tsconfig.json"
   ]
 }
