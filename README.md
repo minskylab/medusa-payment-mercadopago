@@ -45,7 +45,7 @@ const plugins = [
 // ..
 ```
 
-For more information, please refer to the [documentation](https://github.com/minskylab/medusa-payment-mercadopago).
+For more information, please refer to the [documentation](https://github.com/minskylab/medusa-payment-mercadopago/tree/feature/structure).
 
 ## Contributing
 
