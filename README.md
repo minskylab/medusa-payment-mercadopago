@@ -1,4 +1,7 @@
-# medusa-payment-mercadopago
+![medusaimage](https://user-images.githubusercontent.com/30696989/220211077-5e081407-e44b-4f62-8f61-c731b49a8a01.png)
+<div align="center">
+  <h1>medusa-payment-mercadopago</h1>
+</div>
 
 This is a [Medusa](https://medusajs.com/) plugin that adds [Mercado Pago](https://www.mercadopago.com/) as a payment provider to Medusa ecommerce stores.
 
