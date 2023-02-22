@@ -1,16 +1,13 @@
-/lib
-node_modules
-.DS_store
-.env*
-/*.js
-!index.js
-yarn.lock
+/dist
+.env
+.DS_Store
+/uploads
+/node_modules
+yarn-error.log
+/.idea
 
 /dist
 
 /api
 /services
-/models
 /subscribers
-/helpers
-/__mocks__
