@@ -106,8 +106,8 @@ class MercadopagoProviderService extends AbstractPaymentService {
     const preference = {
       items: items /**REQUIRED */,
       payer: {
-        name: cart.billing_address.first_name,
-        surname: cart.billing_address.last_name,
+        name: cart.billing_address?.first_name,
+        surname: cart.billing_address?.last_name,
         email: cart.email,
       },
       notification_url: `${this.options_.webhook_url}/mercadopago`,
