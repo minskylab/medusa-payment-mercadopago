@@ -23,7 +23,7 @@ yarn add @minskylab/medusa-payment-mercadopago
 
 ## Configuration
 
-Register for a MercadoPago account and get your [credentials](https://www.mercadopago.com.pe/developers/en/docs/checkout-pro/additional-content/credentials). To configure the plugin, you'll need to set the following environment variables in your environment file (.env)
+Register for a MercadoPago account and get your [credentials](https://www.mercadopago.com.pe/developers/en/docs/checkout-pro/additional-content/your-integrations/credentials). To configure the plugin, you'll need to set the following environment variables in your environment file (.env)
 
 ```
 MERCADOPAGO_ACCESS_TOKEN=<your access token>
